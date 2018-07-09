@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNG Automation Test Suite"  >
+  <test name="Different testng features test" >
+  <parameter name="browser" value="chrome"></parameter>
+  	<parameter name="url" value="https://login.yahoo.com/"></parameter>
+  	<parameter name="emailId" value="test@yahoo.com"></parameter>
+  
+    <classes>
+       
+           <class name="com.Test.ParametersTest" />
+    </classes>
+  </test>
+  </suite>

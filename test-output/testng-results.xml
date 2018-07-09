@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17369" started-at="2018-06-29T10:53:54Z" finished-at="2018-06-29T10:54:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17369" started-at="2018-06-29T10:53:54Z" finished-at="2018-06-29T10:54:11Z">
+      <class name="webdriverBasic.TestCRM">
+        <test-method status="PASS" signature="loginCRM()[pri:0, instance:webdriverBasic.TestCRM@1b604f19]" name="loginCRM" duration-ms="17338" started-at="2018-06-29T16:23:54Z" finished-at="2018-06-29T16:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+      </class> <!-- webdriverBasic.TestCRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Automation Test Suite]">
+  <test name="Different testng features test(failed)">
+    <classes>
+      <class name="com.Test.TestNGFeatures">
+        <methods>
+          <include name="searchPage"/>
+          <include name="login"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- com.Test.TestNGFeatures -->
+      <class name="com.Test.GoogleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Test.GoogleTest -->
+      <class name="com.Test.AssertionTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Test.AssertionTest -->
+    </classes>
+  </test> <!-- Different testng features test(failed) -->
+</suite> <!-- Failed suite [TestNG Automation Test Suite] -->
